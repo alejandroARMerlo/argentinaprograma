@@ -24,3 +24,18 @@ console.log("La lista de invitados rechazados es:")
 for(let i=0; i<rechazados.length ; i++){
     console.log(rechazados[i]);
 }
+
+rechazados.sort();
+admitidos.sort();
+
+console.log("La lista ordenada de invitados admitidos es:")
+
+for(let i=0; i<admitidos.length ; i++){
+    console.log(admitidos[i]);
+}
+
+console.log("La lista ordenada de invitados rechazados es:")
+
+for(let i=0; i<rechazados.length ; i++){
+    console.log(rechazados[i]);
+}
